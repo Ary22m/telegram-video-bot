@@ -18,7 +18,7 @@ from pathlib import Path
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("8522661430:AAFfF9ZjEG_kwXFPWxr_Qb7i0_ap_g8E4gs")
+TOKEN = os.environ.get("BOT_TOKEN")
 DOWNLOAD_FOLDER = "/tmp/downloads"
 STATE_FOLDER = "/tmp/download_states"  # تخزين حالات التحميل
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
